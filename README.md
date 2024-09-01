@@ -23,7 +23,7 @@ __*The main folder contains 9 folders*__.
   + RawData folder which contains the **[raw dataset](RawData)**.  <br/>
  
 ***
-### Analysis 1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis1.py](Analysis1/Analysis1.py)&emsp;[Analysis1.ipynb](Analysis1/Analysis1.ipynb)&emsp;[Plots](Analysis1/Plots)
+
 + This analysis gives the distribution of prices of vehicles based on vehicles types.
 + Output before the cleaning the data is shown below in order to highlight the importance of cleaning this dataset.
 + **Histogram** and **KDE** before performing data cleaning.
@@ -35,7 +35,7 @@ __*The main folder contains 9 folders*__.
 
 ![alt text](Analysis1/Plots/price-vehicleType-boxplot.png "Logo Title Text 1")
 ***
-### Analysis 2 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis2.py](Analysis2/Analysis2.py)&emsp;[Analysis2.ipynb](Analysis2/Analysis2.ipynb)&emsp;[Plots](Analysis2/Plots)
+
 
 + This analysis gives the number of cars which are available for sale in the entire dataset based on a particular brand. 
 
@@ -45,7 +45,7 @@ __*The main folder contains 9 folders*__.
 
 ![alt text](Analysis2/Plots/vehicletype-gearbox-price.png "Logo Title Text 1")
 ***
-### Analysis 3 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis3.py](Analysis3/Analysis3.py)&emsp;[Analysis3.ipynb](Analysis3/Analysis3.ipynb)&emsp;[Plots](Analysis3/Plots)
+
 
 + This analysis gives the average number of price for the vehicles based on the fueltype of the vehicle and also based on the type of the vehicle.
 
@@ -55,13 +55,13 @@ __*The main folder contains 9 folders*__.
 
 ![alt text](Analysis3/Plots/power-vehicleType-fuelType.png "Logo Title Text 1")
 ***
-### Analysis 4 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis4.py](Analysis4/Analysis4.py)&emsp;[Analysis4.ipynb](Analysis4/Analysis4.ipynb)&emsp;[Plots](Analysis4/Plots)
+
 
 + This analysis gives you the average price of the brand of vehicles and their types which are likely to be found in the dataset.
 
 ![alt text](Analysis4/Plots/heatmap-price-brand-vehicleType.png "Logo Title Text 1")
 ***
-### Analysis 5 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis5.py](Analysis5/Analysis5.py)&emsp;[Analysis5.ipynb](Analysis5/Analysis5.ipynb)&emsp;[Plots](Analysis5/Plots)
+
 
 + This analysis gives you the distribution of the total no of days a partiular vehicle has been online for sale before it was purchased. 
 + This is a **dynamic analysis** and can be applied to **any vehicle** by specifying the brand of choice as argument to the python script.
